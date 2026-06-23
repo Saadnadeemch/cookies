@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Buckty Cookie Extractor",
+  "version": "1.1",
+  "description": "Extract cookies from all platforms and upload to backend",
+  "permissions": [
+    "cookies",
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.instagram.com/*",
+    "*://*.x.com/*",
+    "*://*.twitter.com/*",
+    "*://*.tiktok.com/*",
+    "*://*.facebook.com/*",
+    "*://*.dailymotion.com/*",
+    "*://*.linkedin.com/*",
+    "*://*.reddit.com/*",
+    "https://videosaver.online/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
